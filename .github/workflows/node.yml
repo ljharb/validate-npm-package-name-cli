@@ -1,0 +1,11 @@
+name: 'Tests: node.js >= 22.4'
+
+on: [pull_request, push]
+
+jobs:
+  tests:
+    uses: ljharb/actions/.github/workflows/node.yml@main
+    with:
+      range: '^22.14 || >= 23.9'
+      type: minors
+      command: npm run tests-only

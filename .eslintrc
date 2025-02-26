@@ -1,0 +1,9 @@
+{
+	"root": true,
+
+	"extends": "@ljharb/eslint-config/node/latest",
+
+	"rules": {
+		"no-extra-parens": "off",
+	},
+}
