@@ -1,0 +1,29 @@
+{
+	"name": "validate-npm-package-name-cli",
+	"version": "0.0.0",
+	"description": "CLI for npmjs.com/validate-npm-package-name",
+	"main": "index.js",
+	"exports": {
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/validate-npm-package-name-cli.git"
+	},
+	"keywords": [
+		"npm",
+		"package",
+		"name",
+		"valid",
+		"validate"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/validate-npm-package-name-cli/issues"
+	},
+	"homepage": "https://github.com/ljharb/validate-npm-package-name-cli#readme"
+}
