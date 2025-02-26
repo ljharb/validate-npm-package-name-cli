@@ -1,6 +1,6 @@
 {
 	"name": "validate-npm-package-name-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "CLI for npmjs.com/validate-npm-package-name - give me a string and I'll tell you if it's a valid npm package name",
 	"bin": "./bin.mjs",
 	"main": false,
