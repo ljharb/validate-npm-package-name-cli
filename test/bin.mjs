@@ -5,8 +5,8 @@ import { promisify, styleText } from 'util';
 import { execFile as execFileC } from 'child_process';
 import { createRequire } from 'module';
 
-const require = createRequire(import.meta.url);
-const pkgJSON = require('../package.json');
+const requireX = createRequire(import.meta.url);
+const pkgJSON = requireX('../package.json');
 
 const execFile = promisify(execFileC);
 
