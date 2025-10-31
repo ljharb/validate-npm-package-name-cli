@@ -61,7 +61,7 @@
 		"undici-types": "^7.16.0"
 	},
 	"engines": {
-		"node": "^22.14 || >= 23.9"
+		"node": "^22.20 || ^24.10 || >= 25"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
