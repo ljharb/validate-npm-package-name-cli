@@ -43,10 +43,10 @@
 		"validate-npm-package-name": "^6.0.0"
 	},
 	"devDependencies": {
-		"@arethetypeswrong/cli": "^0.17.4",
-		"@ljharb/eslint-config": "^21.1.1",
-		"@ljharb/tsconfig": "^0.2.3",
-		"@types/node": "^22.13.5",
+		"@arethetypeswrong/cli": "^0.18.2",
+		"@ljharb/eslint-config": "^21.2.0",
+		"@ljharb/tsconfig": "^0.3.2",
+		"@types/node": "^22.18.13",
 		"@types/tape": "^5.8.1",
 		"@types/validate-npm-package-name": "^4.0.2",
 		"auto-changelog": "^2.5.0",
@@ -57,7 +57,7 @@
 		"safe-publish-latest": "^2.0.0",
 		"tape": "^5.9.0",
 		"typescript": "next",
-		"undici-types": "^7.3.0"
+		"undici-types": "^7.16.0"
 	},
 	"engines": {
 		"node": "^22.14 || >= 23.9"
