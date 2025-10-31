@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.0](https://github.com/ljharb/validate-npm-package-name-cli/compare/v1.0.0...v2.0.0) - 2025-10-31
+
+### Commits
+
+- [Refactor] use `pargs` package [`3a8ba69`](https://github.com/ljharb/validate-npm-package-name-cli/commit/3a8ba69027be1e45fafccb67367183d7341c6f8f)
+- [Tests] extract coverage config to file [`9930ba4`](https://github.com/ljharb/validate-npm-package-name-cli/commit/9930ba4d1b2f79009d73e08acda5dc9a1f021a62)
+- [Dev Deps] update `@arethetypeswrong/cli`, `@ljharb/eslint-config`, `@ljharb/tsconfig`, `@types/node`, `undici-types` [`82aa998`](https://github.com/ljharb/validate-npm-package-name-cli/commit/82aa99819d87b78c0ec1a28b40ff3c971451ef5a)
+- [Breaking] update `engines.node` [`bcaddc4`](https://github.com/ljharb/validate-npm-package-name-cli/commit/bcaddc45999755d95026b473c900c495830ee418)
+- [Deps] update `validate-npm-package-name` [`5557a25`](https://github.com/ljharb/validate-npm-package-name-cli/commit/5557a25fc1e046efe00569c90de4282fee79449e)
+
 ## v1.0.0 - 2025-02-26
 
 ### Commits
