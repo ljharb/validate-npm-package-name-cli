@@ -40,6 +40,7 @@
 	},
 	"homepage": "https://github.com/ljharb/validate-npm-package-name-cli#readme",
 	"dependencies": {
+		"pargs": "1.1",
 		"validate-npm-package-name": "^6.0.2"
 	},
 	"devDependencies": {
@@ -71,8 +72,7 @@
 		],
 		"exclude": [
 			"coverage",
-			"test",
-			"pargs.mjs"
+			"test"
 		]
 	},
 	"auto-changelog": {

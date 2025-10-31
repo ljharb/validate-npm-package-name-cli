@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
 import { styleText } from 'util';
-import pargs from './pargs.mjs';
+import pargs from 'pargs';
 
 const {
-	positionals: [packageName],
 	help,
+	positionals: [packageName],
 } = await pargs(import.meta.filename, {
 	allowPositionals: 1,
 	minPositionals: 1,
@@ -18,14 +18,14 @@ import validate from 'validate-npm-package-name';
 const {
 	validForNewPackages,
 	warnings,
-	errors,
+	errors: validateErrors,
 } = validate(packageName);
 
 if (validForNewPackages) {
 	console.log(styleText('green', packageName));
 } else {
 	warnings?.forEach((warning) => console.warn(styleText('yellow', warning)));
-	errors?.forEach((error) => console.error(styleText('red', error)));
+	validateErrors?.forEach((error) => console.error(styleText('red', error)));
 
 	process.exitCode = 1;
 }
