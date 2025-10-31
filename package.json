@@ -63,18 +63,6 @@
 	"engines": {
 		"node": "^22.14 || >= 23.9"
 	},
-	"c8": {
-		"all": true,
-		"reporter": [
-			"html",
-			"text",
-			"lcov"
-		],
-		"exclude": [
-			"coverage",
-			"test"
-		]
-	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
 		"template": "keepachangelog",
