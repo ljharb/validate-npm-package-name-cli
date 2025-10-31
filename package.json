@@ -40,7 +40,7 @@
 	},
 	"homepage": "https://github.com/ljharb/validate-npm-package-name-cli#readme",
 	"dependencies": {
-		"validate-npm-package-name": "^6.0.0"
+		"validate-npm-package-name": "^6.0.2"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.18.2",
