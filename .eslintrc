@@ -4,6 +4,7 @@
 	"extends": "@ljharb/eslint-config/node/latest",
 
 	"rules": {
+		"func-style": "off",
 		"no-extra-parens": "off",
 	},
 }

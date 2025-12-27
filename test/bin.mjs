@@ -59,15 +59,31 @@ test('cli', async (t) => {
 	const y = /** @type {const} */ ([
 		'es-abstract',
 		'jsonstream',
+		'json',
 		...Object.keys(pkgJSON.dependencies),
 		...Object.keys(pkgJSON.devDependencies),
 	]);
 
 	await Promise.all(y.map((pkg) => run(t, pkg, { out: pkg, outC: styleText('green', pkg) })));
 
+	// packages that exist on npm but are only validForOldPackages (not validForNewPackages)
+	const yOld = /** @type {const} */ ([
+		['JSONStream', 'name can no longer contain capital letters'],
+		['JSON', 'name can no longer contain capital letters'],
+		['path', 'path is a core module name'],
+	]);
+
+	await Promise.all(yOld.map(([pkg, warning]) => run(t, pkg, {
+		out: pkg,
+		outC: styleText(['dim', 'green'], pkg),
+		err: warning,
+		errC: styleText('yellow', warning),
+	})));
+
 	const n = /** @type {const} */ ([
 		['foo bar', 'name can only contain URL-friendly characters'],
-		['JSONStream', '', 'name can no longer contain capital letters'],
+		['worker_threads', '', 'worker_threads is a core module name'],
+		['ThisPackageDoesNotExistOnNpm', '', 'name can no longer contain capital letters'],
 	]);
 
 	await Promise.all(n.map(([
