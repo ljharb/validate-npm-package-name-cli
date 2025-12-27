@@ -40,8 +40,8 @@
 	},
 	"homepage": "https://github.com/ljharb/validate-npm-package-name-cli#readme",
 	"dependencies": {
-		"pargs": "1.1",
-		"validate-npm-package-name": "^6.0.2"
+		"pargs": "^1.2.1",
+		"validate-npm-package-name": "^7.0.1"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^22.1.3",
