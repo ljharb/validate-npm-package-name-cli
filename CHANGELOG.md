@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.1.0](https://github.com/ljharb/validate-npm-package-name-cli/compare/v2.0.0...v2.1.0) - 2025-12-26
+
+### Commits
+
+- [New] pass for invalid but preexisting packages [`66652e7`](https://github.com/ljharb/validate-npm-package-name-cli/commit/66652e7f4aeabf9a81c66b68569950e220c21d99)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config` [`d28c6f2`](https://github.com/ljharb/validate-npm-package-name-cli/commit/d28c6f26c94531e8e34e434fff8c6d60b4ea1836)
+- [Deps] update `pargs`, `validate-npm-package-name` [`cea9494`](https://github.com/ljharb/validate-npm-package-name-cli/commit/cea9494dbe6323730d2f46ce144166f18a085094)
+- [Dev Deps] update `npmignore` [`416fbc7`](https://github.com/ljharb/validate-npm-package-name-cli/commit/416fbc7c204d07a74dd778bcba30bf73297bfb71)
+
 ## [v2.0.0](https://github.com/ljharb/validate-npm-package-name-cli/compare/v1.0.0...v2.0.0) - 2025-10-31
 
 ### Commits
