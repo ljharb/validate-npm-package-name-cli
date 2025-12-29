@@ -46,5 +46,5 @@ MIT
 [downloads-url]: https://npm-stat.com/charts.html?package=validate-npm-package-name-cli
 [codecov-image]: https://codecov.io/gh/ljharb/validate-npm-package-name-cli/branch/main/graphs/badge.svg
 [codecov-url]: https://app.codecov.io/gh/ljharb/validate-npm-package-name-cli/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/validate-npm-package-name-cli
+[actions-image]: https://img.shields.io/github/check-runs/ljharb/validate-npm-package-name-cli/main
 [actions-url]: https://github.com/ljharb/validate-npm-package-name-cli/actions
