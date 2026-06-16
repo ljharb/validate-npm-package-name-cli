@@ -1,2 +1,0 @@
-Usage:
-validate-npm-package-name-cli <npm package specifier>

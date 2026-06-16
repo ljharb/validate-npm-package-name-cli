@@ -9,6 +9,7 @@ const {
 } = await pargs(import.meta.filename, {
 	allowPositionals: 1,
 	minPositionals: 1,
+	positionals: [{ name: 'npm package specifier' }],
 });
 
 await help();
